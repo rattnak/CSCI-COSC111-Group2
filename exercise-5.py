@@ -1,7 +1,11 @@
+str1 = ''
+str2 = 'world'
+str3 = 'hello world'
 def backward_string_by_word(w):
     rev = ""
-    rev += word[::-1]
+    rev += w[::-1]
     return rev
 if __name__ == '__main__':
-    word = input("Enter a statement you want to reverse: ")
-    print(f"Your reversed word is {backward_string_by_word(word)}")
+    print(f"If you reverse '{str1}', the reversed string is '{backward_string_by_word(str1)}'.")
+    print(f"If you reverse '{str2}', the reversed string is '{backward_string_by_word(str2)}'.")
+    print(f"If you reverse '{str3}', the reversed string is '{backward_string_by_word(str3)}'.")
