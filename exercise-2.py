@@ -1,6 +1,3 @@
-from tokenize import Exponent
-
-
 def index_power(list,exponent):
     list1 = []
     if exponent == 0:
@@ -14,7 +11,11 @@ def index_power(list,exponent):
     else:
         return -1
 
-list= [1, 2, 3]
-Exponent = 3
-a = index_power(list, Exponent)
-print(a)
+if __name__ == '__main__':
+
+    a = index_power([1,2,3,4], 2)
+    b = index_power([1,5,100], 0 )
+    c = index_power([0,1,3], 5)
+    print(a)
+    print(b)
+    print(c)
