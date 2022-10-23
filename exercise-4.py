@@ -9,8 +9,8 @@ list2 = ([3, 4, 5], 1)
 
 if __name__ == '__main__':
 
-    a = chunking_by([5, 4, 7, 3, 4, 5, 4], 3)
-    b = chunking_by([3, 4, 5], 1)
+    a = list(chunking_by([5, 4, 7, 3, 4, 5, 4], 3))
+    b = list(chunking_by([3, 4, 5], 1))
     
     print(f'for{list1}, the return value is {a}.')
     print(f'for{list2}, the return value is {b}.')
