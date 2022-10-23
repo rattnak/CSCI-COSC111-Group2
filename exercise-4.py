@@ -3,3 +3,4 @@ def chunking_by(items: list, chunk_size: int):
 
 if __name__ == '__main__':
     print(list(chunking_by([5, 4, 7, 3, 4, 5, 4], 3)))
+    print(list(chunking_by([3, 4, 5], 1)))
